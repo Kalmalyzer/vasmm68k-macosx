@@ -14,10 +14,10 @@ class Vasmm68k < Formula
     #                         "--prefix=#{prefix}"
       # system "cmake", ".", *std_cmake_args
       #system "make", "install"
-      system "(cd vasm && make CPU=m68k SYNTAX=mot && chmod ugo+rx vasmm68k_mot)"
-      system "(cd vasm && make CPU=m68k SYNTAX=std && chmod ugo+rx vasmm68k_std)"
-      bin.install "vasm/vasmm68k_mot"
-      bin.install "vasm/vasmm68k_std"
+      system "(make CPU=m68k SYNTAX=mot && chmod ugo+rx vasmm68k_mot)"
+      system "(make CPU=m68k SYNTAX=std && chmod ugo+rx vasmm68k_std)"
+      bin.install "vasmm68k_mot"
+      bin.install "vasmm68k_std"
     end
   
     test do
