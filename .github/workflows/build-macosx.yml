@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v1
       - name: Test formula
         run: |
-          brew install --verbose --debug vasmm68k
+          brew install --verbose --debug ./Formula/vasmm68k.rb
           brew test
