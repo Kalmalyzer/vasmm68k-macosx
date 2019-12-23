@@ -2,7 +2,7 @@ class Vasmm68k < Formula
     desc "Cross-assembler for 680x0 processors / Amiga OS"
     homepage "http://sun.hasenbraten.de/vasm"
     url "http://server.owl.de/~frank/tags/vasm1_8f.tar.gz"
-#    sha256 "85cc828a96735bdafcf29eb6291ca91bac846579bcef7308536e0c875d6c81d7"
+    sha256 "9a97952951912b070a1b9118a466a3cd8024775be45266ede3f78b2f99ecc1f2"
   
     # depends_on "cmake" => :build
   
