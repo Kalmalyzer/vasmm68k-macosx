@@ -1,4 +1,4 @@
-class vasmm68k < Formula
+class Vasmm68k < Formula
     desc "Cross-assembler for 680x0 processors / Amiga OS"
     homepage "http://sun.hasenbraten.de/vasm"
     url "http://server.owl.de/~frank/tags/vasm1_8f.tar.gz"
